@@ -14,7 +14,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         solution.recursion("-(-22+22*2)", 0); //expected output 0.5 6
-        int d = 0;
     }
     public void recursion(final String expression, int countOperation) {
         int count = 0;
